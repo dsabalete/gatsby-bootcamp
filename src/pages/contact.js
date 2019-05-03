@@ -1,11 +1,15 @@
 import React from 'react'
 
+import Layout from '../components/layout'
+
 const ContactPage = () => {
     return (
-        <div>
+        <Layout>
             <h1>Contact</h1>
-            <p>The best way to reach me is via @dsabalete on Twitter!.</p>
-        </div>
+            <p>
+                The best way to reach me is via <a href="https://twitter.com/dsabalete" target="_blank" rel="noopener noreferrer">@dsabalete</a> on Twitter!.
+            </p>
+        </Layout>
     )
 }
 
