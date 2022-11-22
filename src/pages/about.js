@@ -9,7 +9,7 @@ const AboutPage = () => {
         <Layout>
             <Head title="About" />
             <h1>About Me</h1>
-            <p>I currently work full-time on Edreams ODIGEO.</p>
+            <p>I currently work full-time at LoveToKnow Media.</p>
             <p><Link to="/contact">Want to work with me? Reach out.</Link></p>
         </Layout>
     )
